@@ -3,7 +3,11 @@
            SECTION : VARIABLES & THÈMES
         ============================================================ */
         :root {
-            color-scheme: only dark;
+            color-scheme: dark;
+        }
+        
+        html {
+            forced-color-adjust: none;
         }
         :root {
             /* --- Global --- */
