@@ -3,6 +3,9 @@
            SECTION : VARIABLES & THÈMES
         ============================================================ */
         :root {
+            color-scheme: only dark;
+        }
+        :root {
             /* --- Global --- */
             --global-primary:    #e6c755;
             --global-secondary:  #ead896;
@@ -24,8 +27,6 @@
             --border-card:       rgba(255,255,255,0.08);
             --shadow-base:       0 4px 15px rgba(0,0,0,0.4);
             --shadow-hover:      0 12px 30px rgba(0,0,0,0.5);
-
-            color-scheme: dark;
         }
         /* ============================================================
            SECTION : COULEURS SPÉCIALES GROUPES
