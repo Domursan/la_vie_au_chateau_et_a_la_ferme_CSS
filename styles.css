@@ -24,6 +24,8 @@
             --border-card:       rgba(255,255,255,0.08);
             --shadow-base:       0 4px 15px rgba(0,0,0,0.4);
             --shadow-hover:      0 12px 30px rgba(0,0,0,0.5);
+
+            color-scheme: dark;
         }
         /* ============================================================
            SECTION : COULEURS SPÉCIALES GROUPES
