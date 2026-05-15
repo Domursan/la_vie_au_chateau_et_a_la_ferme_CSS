@@ -1,4 +1,4 @@
-    <style> /* Version 1.3.5 */
+    <style> /* Version 1.3.6 */
         /* ============================================================
            SECTION : VARIABLES & THÈMES
         ============================================================ */
@@ -125,20 +125,24 @@
             font-family: var(--chateau-font);
             letter-spacing: 0.5px;
             backdrop-filter: blur(4px);
+            z-index: 9999;
         }
         .floating-btn      { 
             left: 2.5%;
             top: 40%;
+            z-index: 9999;
         }
         .floating-btn-left-2 {
             left: 2.5%;
             top: 45%;
+            z-index: 9999;
         }
         .floating-btn:hover,
         .floating-btn-left-2:hover {
             background: linear-gradient(135deg, var(--global-primary), #c9a93e);
             color: #1a1a1a !important;
             box-shadow: 0 6px 20px rgba(230, 199, 85, 0.4);
+            z-index: 9999;
         }
         .floating-btn-right {
             position: fixed;
@@ -163,11 +167,13 @@
             font-family: var(--chateau-font);
             letter-spacing: 0.5px;
             backdrop-filter: blur(4px);
+            z-index: 9999;
         }
         .floating-btn-right:hover {
             background: linear-gradient(135deg, var(--global-primary), #c9a93e);
             color: #1a1a1a !important;
             box-shadow: 0 6px 20px rgba(230, 199, 85, 0.4);
+            z-index: 9999;
         }
         .floating-btn-right-2 {
             position: fixed;
@@ -190,11 +196,13 @@
             font-family: var(--chateau-font);
             letter-spacing: 0.5px;
             backdrop-filter: blur(4px);
+            z-index: 9999;
         }
         .floating-btn-right-2:hover {
             background: linear-gradient(135deg, var(--global-primary), #c9a93e);
             color: #1a1a1a !important;
             box-shadow: 0 6px 20px rgba(230, 199, 85, 0.4);
+            z-index: 9999;
         }
         .floating-btn::after,
         .floating-btn-left-2::after,
@@ -877,21 +885,25 @@
             position: fixed;
             left: 2.5%;
             top: 40%;
+            z-index: 9999;
         }
         #fullscreen-toggle:checked ~ #page-wrapper .floating-btn-left-2 {
             position: fixed;
             left: 2.5%;
             top: 45%;
+            z-index: 9999;
         }
         #fullscreen-toggle:checked ~ #page-wrapper .floating-btn-right {
             position: fixed;
             left: 2.5%;
             top: 50%;
+            z-index: 9999;
         }
         #fullscreen-toggle:checked ~ #page-wrapper .floating-btn-right-2 {
             position: fixed;
             left: 2.5%;
             top: 55%;
+            z-index: 9999;
         }
         #fullscreen-btn-label::before {
             content: attr(data-tooltip);
